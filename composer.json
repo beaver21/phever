@@ -11,7 +11,10 @@
     "autoload": {
         "psr-4": {
             "Phever\\": "src/Phever"
-        }
+        },
+        "files": [
+            "src/utils.php"
+        ]
     },
     "require": {
 
