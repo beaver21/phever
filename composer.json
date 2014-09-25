@@ -1,9 +1,6 @@
 {
     "name": "marcofiset/phever",
     "description": "A PHP Event Sourcing Library",
-    "require-dev": {
-        "phpspec/phpspec": "~2.0"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +8,15 @@
             "email": "marco.fiset@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Phever\\": "src/Phever"
+        }
+    },
     "require": {
 
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
     }
 }
